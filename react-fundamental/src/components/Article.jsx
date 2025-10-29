@@ -1,14 +1,10 @@
-const Article = () => {
-  const name = "Alfimonth";
-  const titleS = ["Tutorial ReactJS", "Tutorial NextJS", "Tutorial NodeJS"];
-
+const Article = (props) => {
   return (
     <>
-      <div>
-        {titleS.map((title) => (
-          <div>{title}</div>
-        ))}
-      </div>
+      <div>{props.name}</div>
+      {props.titles?.map((title) => (
+        <div>- {title}</div>
+      ))}
     </>
   );
 };
