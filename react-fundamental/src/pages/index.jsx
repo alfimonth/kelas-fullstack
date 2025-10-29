@@ -1,20 +1,20 @@
-import posts from "../posts.json";
+import postsData from "../posts.json";
 import Article from "../components/Article";
 import { useState } from "react";
+import Search from "../components/Search";
 
 const HomePage = () => {
-  const [keyword, setKeyword] = useState();
-
-  const filterHandler = (e) => {
-    setKeyword(e.target.value);
+  const [posts, setPosts] = useState(postsData);
+  const filterHandler = (keyword) => {
+    const filteredPosts = postsData.filter((item) =>
+      item.title.toLowerCase().includes(keyword.toLowerCase())
+    );
+    setPosts(filteredPosts);
   };
   return (
     <>
       <h1>Simple Blog</h1>
-      <div>
-        Find Article: <input onChange={filterHandler} />
-      </div>
-      {keyword && <small>0 result for keyword {keyword}</small>}
+      <Search filterHandler={filterHandler} />
       {posts.map((blog, index) => (
         <Article key={index} {...blog} />
       ))}
