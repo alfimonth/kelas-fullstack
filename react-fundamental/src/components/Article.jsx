@@ -1,9 +1,9 @@
-const Article = (props) => {
+const Article = ({ title, date, tags }) => {
   return (
     <>
-      <h3>{props.title}</h3>
+      <h3>{title}</h3>
       <small>
-        {props.date}, tags: {props.tags.join(",")}
+        {date}, tags: {tags.join(",")}
       </small>
     </>
   );
