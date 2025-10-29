@@ -3,15 +3,27 @@ import { useState } from "react";
 const Search = ({ filterHandler, totalPosts }) => {
   const [keyword, setKeyword] = useState();
 
-  const onSearchChange = (e) => {
-    setKeyword(e.target.value);
-    filterHandler(e.target.value);
+  const onSearchChange = () => {
+    filterHandler(keyword);
+  };
+
+  const onKeyDownHandler = (e) => {
+    if (e.key === "Enter") {
+      onSearchChange();
+    }
   };
 
   return (
     <>
       <div>
-        Find Article: <input onChange={onSearchChange} />
+        Find Article:{" "}
+        <input
+          onChange={(e) => {
+            setKeyword(e.target.value);
+          }}
+          onKeyDown={onKeyDownHandler}
+        />
+        <button onClick={onSearchChange}>Search</button>
       </div>
       {keyword && (
         <small>
