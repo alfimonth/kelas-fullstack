@@ -1,13 +1,20 @@
-import './App.css'
-import Article from './components/Article.jsx'
+import "./App.css";
+import HomePage from "./pages/index.jsx";
+import { GlobalContext } from "./context/index.js";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routers/index.jsx";
 
-function App() {
-
+const App = () => {
+  const user = {
+    name: "Alfimonth",
+  };
   return (
     <>
-      <Article />
+      <GlobalContext.Provider value={user}>
+        <RouterProvider router={router} />
+      </GlobalContext.Provider>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
