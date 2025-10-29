@@ -2,256 +2,307 @@
   {
     "title": "Exploring Next.js Middleware",
     "tags": ["nextjs", "middleware", "webdev"],
-    "date": "2025-01-05"
+    "date": "2025-01-05",
+    "isNew": true
   },
   {
     "title": "Mastering Prisma Relations",
     "tags": ["prisma", "database", "typescript"],
-    "date": "2025-01-06"
+    "date": "2025-01-06",
+    "isNew": true
   },
   {
     "title": "Flutter State Management Guide",
     "tags": ["flutter", "state", "bloc"],
-    "date": "2025-01-07"
+    "date": "2025-01-07",
+    "isNew": true
   },
   {
     "title": "PostgreSQL Indexing Tricks",
     "tags": ["postgresql", "performance", "query"],
-    "date": "2025-01-08"
+    "date": "2025-01-08",
+    "isNew": false
   },
   {
     "title": "Understanding React Server Components",
     "tags": ["react", "rsc", "frontend"],
-    "date": "2025-01-09"
+    "date": "2025-01-09",
+    "isNew": false
   },
   {
     "title": "Supabase Realtime Chat Tutorial",
     "tags": ["supabase", "realtime", "chat"],
-    "date": "2025-01-10"
+    "date": "2025-01-10",
+    "isNew": false
   },
   {
     "title": "Building Dark Mode with Tailwind",
     "tags": ["tailwind", "css", "ui"],
-    "date": "2025-01-11"
+    "date": "2025-01-11",
+    "isNew": false
   },
   {
     "title": "Deploying Laravel on Vercel",
     "tags": ["laravel", "vercel", "deployment"],
-    "date": "2025-01-12"
+    "date": "2025-01-12",
+    "isNew": false
   },
   {
     "title": "Setting Up NextAuth with Google",
     "tags": ["nextauth", "google", "auth"],
-    "date": "2025-01-13"
+    "date": "2025-01-13",
+    "isNew": false
   },
   {
     "title": "Working with Neon Database",
     "tags": ["neon", "postgres", "cloud"],
-    "date": "2025-01-14"
+    "date": "2025-01-14",
+    "isNew": false
   },
   {
     "title": "Optimizing React Rendering",
     "tags": ["react", "performance", "hooks"],
-    "date": "2025-01-15"
+    "date": "2025-01-15",
+    "isNew": false
   },
   {
     "title": "Building a To-Do App in Flutter",
     "tags": ["flutter", "todo", "mobile"],
-    "date": "2025-01-16"
+    "date": "2025-01-16",
+    "isNew": false
   },
   {
     "title": "Next.js Incremental Static Regeneration",
     "tags": ["nextjs", "isr", "static"],
-    "date": "2025-01-17"
+    "date": "2025-01-17",
+    "isNew": false
   },
   {
     "title": "Handling File Uploads to GCS",
     "tags": ["gcp", "upload", "cloudstorage"],
-    "date": "2025-01-18"
+    "date": "2025-01-18",
+    "isNew": false
   },
   {
     "title": "Animating Text in React",
     "tags": ["react", "animation", "framer-motion"],
-    "date": "2025-01-19"
+    "date": "2025-01-19",
+    "isNew": false
   },
   {
     "title": "Using Supabase Auth in Next.js",
     "tags": ["supabase", "auth", "nextjs"],
-    "date": "2025-01-20"
+    "date": "2025-01-20",
+    "isNew": false
   },
   {
     "title": "Flutter Image Optimization Tips",
     "tags": ["flutter", "image", "performance"],
-    "date": "2025-01-21"
+    "date": "2025-01-21",
+    "isNew": false
   },
   {
     "title": "Prisma Schema Best Practices",
     "tags": ["prisma", "schema", "database"],
-    "date": "2025-01-22"
+    "date": "2025-01-22",
+    "isNew": false
   },
   {
     "title": "Implementing Role-based Access",
     "tags": ["auth", "roles", "security"],
-    "date": "2025-01-23"
+    "date": "2025-01-23",
+    "isNew": false
   },
   {
     "title": "Responsive Layouts in Tailwind",
     "tags": ["tailwind", "responsive", "frontend"],
-    "date": "2025-01-24"
+    "date": "2025-01-24",
+    "isNew": false
   },
   {
     "title": "Supabase Realtime Subscriptions",
     "tags": ["supabase", "realtime", "postgres"],
-    "date": "2025-01-25"
+    "date": "2025-01-25",
+    "isNew": false
   },
   {
     "title": "Integrating Prisma with Supabase",
     "tags": ["prisma", "supabase", "backend"],
-    "date": "2025-01-26"
+    "date": "2025-01-26",
+    "isNew": false
   },
   {
     "title": "Next.js API Routes Simplified",
     "tags": ["nextjs", "api", "server"],
-    "date": "2025-01-27"
+    "date": "2025-01-27",
+    "isNew": false
   },
   {
     "title": "Using Bun with npm Projects",
     "tags": ["bun", "npm", "javascript"],
-    "date": "2025-01-28"
+    "date": "2025-01-28",
+    "isNew": false
   },
   {
     "title": "React Hooks Deep Dive",
     "tags": ["react", "hooks", "state"],
-    "date": "2025-01-29"
+    "date": "2025-01-29",
+    "isNew": false
   },
   {
     "title": "Automating Tests with Vitest",
     "tags": ["vitest", "testing", "frontend"],
-    "date": "2025-01-30"
+    "date": "2025-01-30",
+    "isNew": false
   },
   {
     "title": "Next.js Static Export Guide",
     "tags": ["nextjs", "export", "build"],
-    "date": "2025-01-31"
+    "date": "2025-01-31",
+    "isNew": false
   },
   {
     "title": "Handling ENV in Next.js",
     "tags": ["nextjs", "env", "config"],
-    "date": "2025-02-01"
+    "date": "2025-02-01",
+    "isNew": false
   },
   {
     "title": "PostgreSQL JSONB Querying",
     "tags": ["postgresql", "jsonb", "query"],
-    "date": "2025-02-02"
+    "date": "2025-02-02",
+    "isNew": false
   },
   {
     "title": "Livewire Search in Laravel",
     "tags": ["laravel", "livewire", "search"],
-    "date": "2025-02-03"
+    "date": "2025-02-03",
+    "isNew": false
   },
   {
     "title": "Vue without jQuery Bootstrap",
     "tags": ["vue", "bootstrap", "frontend"],
-    "date": "2025-02-04"
+    "date": "2025-02-04",
+    "isNew": false
   },
   {
     "title": "Starship Prompt Timeout Fix",
     "tags": ["terminal", "starship", "performance"],
-    "date": "2025-02-05"
+    "date": "2025-02-05",
+    "isNew": false
   },
   {
     "title": "Using Prisma Filters Effectively",
     "tags": ["prisma", "filter", "query"],
-    "date": "2025-02-06"
+    "date": "2025-02-06",
+    "isNew": false
   },
   {
     "title": "Creating Custom Table in Vue",
     "tags": ["vue", "component", "ui"],
-    "date": "2025-02-07"
+    "date": "2025-02-07",
+    "isNew": false
   },
   {
     "title": "React Dashboard Layout Tips",
     "tags": ["react", "dashboard", "layout"],
-    "date": "2025-02-08"
+    "date": "2025-02-08",
+    "isNew": false
   },
   {
     "title": "Flutter Scrollable Widgets",
     "tags": ["flutter", "scroll", "ui"],
-    "date": "2025-02-09"
+    "date": "2025-02-09",
+    "isNew": false
   },
   {
     "title": "Deploying Supabase Functions",
     "tags": ["supabase", "edge", "function"],
-    "date": "2025-02-10"
+    "date": "2025-02-10",
+    "isNew": false
   },
   {
     "title": "Building ERP with Odoo 18",
     "tags": ["odoo", "erp", "python"],
-    "date": "2025-02-11"
+    "date": "2025-02-11",
+    "isNew": false
   },
   {
     "title": "Cloud Storage Lifecycle Rules",
     "tags": ["gcp", "storage", "automation"],
-    "date": "2025-02-12"
+    "date": "2025-02-12",
+    "isNew": false
   },
   {
     "title": "React Motion with Framer",
     "tags": ["react", "animation", "framer-motion"],
-    "date": "2025-02-13"
+    "date": "2025-02-13",
+    "isNew": false
   },
   {
     "title": "Dark Mode System in Tailwind",
     "tags": ["tailwind", "darkmode", "theme"],
-    "date": "2025-02-14"
+    "date": "2025-02-14",
+    "isNew": false
   },
   {
     "title": "Next.js Routing System",
     "tags": ["nextjs", "routing", "appdir"],
-    "date": "2025-02-15"
+    "date": "2025-02-15",
+    "isNew": false
   },
   {
     "title": "Prisma Many-to-Many Explained",
     "tags": ["prisma", "relations", "database"],
-    "date": "2025-02-16"
+    "date": "2025-02-16",
+    "isNew": false
   },
   {
     "title": "Building Chat UI in React",
     "tags": ["react", "chat", "ui"],
-    "date": "2025-02-17"
+    "date": "2025-02-17",
+    "isNew": false
   },
   {
     "title": "Neon Auth Integration",
     "tags": ["neon", "auth", "postgres"],
-    "date": "2025-02-18"
+    "date": "2025-02-18",
+    "isNew": false
   },
   {
     "title": "React Suspense for Data Fetching",
     "tags": ["react", "suspense", "data"],
-    "date": "2025-02-19"
+    "date": "2025-02-19",
+    "isNew": false
   },
   {
     "title": "Next.js Middleware Redirects",
     "tags": ["nextjs", "middleware", "auth"],
-    "date": "2025-02-20"
+    "date": "2025-02-20",
+    "isNew": false
   },
   {
     "title": "Optimizing Prisma Queries",
     "tags": ["prisma", "optimization", "sql"],
-    "date": "2025-02-21"
+    "date": "2025-02-21",
+    "isNew": false
   },
   {
     "title": "Working with Supabase Storage",
     "tags": ["supabase", "storage", "bucket"],
-    "date": "2025-02-22"
+    "date": "2025-02-22",
+    "isNew": false
   },
   {
     "title": "Flutter Container Tricks",
     "tags": ["flutter", "ui", "container"],
-    "date": "2025-02-23"
+    "date": "2025-02-23",
+    "isNew": false
   },
   {
     "title": "PostgreSQL User Management",
     "tags": ["postgresql", "user", "access"],
-    "date": "2025-02-24"
+    "date": "2025-02-24",
+    "isNew": false
   }
 ]
