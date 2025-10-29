@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Search = ({ filterHandler }) => {
+const Search = ({ filterHandler, totalPosts }) => {
   const [keyword, setKeyword] = useState();
 
   const onSearchChange = (e) => {
@@ -13,7 +13,11 @@ const Search = ({ filterHandler }) => {
       <div>
         Find Article: <input onChange={onSearchChange} />
       </div>
-      {keyword && <small>0 result for keyword {keyword}</small>}
+      {keyword && (
+        <small>
+          {totalPosts} result for keyword {keyword}
+        </small>
+      )}
     </>
   );
 };

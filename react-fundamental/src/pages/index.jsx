@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <>
       <h1>Simple Blog</h1>
-      <Search filterHandler={filterHandler} />
+      <Search filterHandler={filterHandler} totalPosts={posts.length} />
       {posts.map((blog, index) => (
         <Article key={index} {...blog} />
       ))}
