@@ -1,10 +1,10 @@
 const Article = (props) => {
   return (
     <>
-      <div>{props.name}</div>
-      {props.titles?.map((title) => (
-        <div>- {title}</div>
-      ))}
+      <h3>{props.title}</h3>
+      <small>
+        {props.date}, tags: {props.tags.join(",")}
+      </small>
     </>
   );
 };
