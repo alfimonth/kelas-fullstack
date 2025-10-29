@@ -5,8 +5,11 @@ const HomePage = () => {
   return (
     <>
       <h1>Simple Blog</h1>
+      <div>
+        Cari Article: <input></input>
+      </div>
       {posts.map((blog) => (
-        <Article title={blog.title} tags={blog.tags} date={blog.date} />
+        <Article {...blog} />
       ))}
     </>
   );
