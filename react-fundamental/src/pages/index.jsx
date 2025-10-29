@@ -23,9 +23,9 @@ const HomePage = () => {
     <>
       <h1>Simple Blog</h1>
       <Search filterHandler={filterHandler} totalPosts={posts.length} />
-      {/* {posts.map((blog, index) => (
+      {posts.map((blog, index) => (
         <Article key={index} {...blog} />
-      ))} */}
+      ))}
       <hr />
       {externalPosts.map((item, index) => (
         <div key={index}>- {item.title}</div>
